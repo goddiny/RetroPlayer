@@ -1,0 +1,7 @@
+# Основные зависимости плеера (Windows 10/11, Python 3.11+)
+PyQt6>=6.5
+pygame-ce>=2.4
+pynput>=1.7.6
+requests>=2.31
+mutagen>=1.47
+comtypes>=1.2.0 ; sys_platform == "win32"
